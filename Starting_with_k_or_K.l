@@ -11,7 +11,7 @@ int main()
 {
 	/*
 		The code is a lex program to count the number of words in the input that start with a 'k' or 'K'.
-	/*
+	*/
 	yylex();
 	return 0;
 }
