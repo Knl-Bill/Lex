@@ -11,6 +11,9 @@ symbols" "|","|"?"|"."|"!"
 %%
 int main()
 {
+	/*
+		The lex program calculates the number of words that end with 'k' or 'K'
+	*/
 	yylex();
 	return 0;
 }
