@@ -15,6 +15,9 @@ symbols " "|","|"?"|"!"|"."
 %%
 int main()
 {
+	/*
+		Words having both, the upper and the lower case letters.
+	*/
 	yylex();
 	return 0;
 }
