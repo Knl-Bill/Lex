@@ -7,6 +7,9 @@
 %%
 int main()
 {
+	/*
+		The Lex program converts the lowercase characters to Uppercase
+	*/
 	yylex();
 	return 0;
 }
