@@ -13,6 +13,9 @@ text[a-zA-Z]
 %%
 int main()
 {
+	/*
+		the lex program counts the number of words having atleast 2 vowels (vowels >=2 )
+	*/
 	yylex();
 	return 0;
 }
