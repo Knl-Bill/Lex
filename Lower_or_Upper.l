@@ -14,6 +14,9 @@ symbols" "|","|"."|"?"|"!"
 %%
 int main()
 {
+	/*
+		Counts the number of words that either have all lowercase or all uppercase letters
+	*/
 	yylex();
 	return 0;
 }
