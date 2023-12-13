@@ -8,6 +8,9 @@ symbols" "|","|"."|"?"|"!"
 %%
 int main()
 {
+	/*
+		Converts the Uppercase letters to Lowercase
+	*/
 	yylex();
 	return 0;
 }
