@@ -3,7 +3,7 @@
 %}
 %%
 [\t]+;
-is|am|are|were|was {printf("'%s' is a verb\n",yytext);}
+is|am|are|were|was {printf("'%s' is a specified word\n",yytext);}
 . {continue;}
 \n {return 0;}
 %%
