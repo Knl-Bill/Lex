@@ -52,8 +52,8 @@ fprintf(yyout,"}\n");
 %%
 int main()
 {
-yyin=fopen("lab4p1in.c","r");
-yyout=fopen("lab4p1out.c","w");
+yyin=fopen("input.c","r");
+yyout=fopen("output.c","w");
 yylex();
 return 0;
 }
