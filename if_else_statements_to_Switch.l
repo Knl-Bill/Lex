@@ -39,7 +39,7 @@ BEGIN BODY;
 %%
 int main()
 {
-yyin=fopen("lab4p2in.c","r");
+yyin=fopen("input.c","r");
 yylex();
 fclose(yyin);
 return 0;
