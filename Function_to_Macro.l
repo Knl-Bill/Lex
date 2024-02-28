@@ -18,7 +18,7 @@
 %%
 int main()
 {
-yyin = fopen("lab4s2in.c","r");
+yyin = fopen("Function.c","r");
 yylex();
 return 0;
 }
