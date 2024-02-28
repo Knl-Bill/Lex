@@ -27,7 +27,7 @@ num [0-9]
 %%
 int main()
 {
-yyin = fopen("lab4s1in.c","r");
+yyin = fopen("switch.c","r");
 yylex();
 fclose(yyin);
 return 0;
